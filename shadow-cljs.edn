@@ -1,0 +1,12 @@
+{:dependencies
+ []
+ 
+ :source-paths
+ ["src"]
+ 
+ :builds
+ {:app {:target :node-script
+        :output-dir "public/js"
+        :output-to "js/shadow-main.js"
+        :optimizations :none
+        :main cave.core/-main}}}

@@ -1,0 +1,15 @@
+{
+  "name": "self-hosted-cljs",
+  "version": "1.0.0",
+  "description": "Source code for [Getting Started with Self-Hosted ClojureScript](http://nbeloglazov.com/2016/03/05/getting-started-with-self-hosted-cljs-part-1.html)",
+  "main": "js/shadow-main.js",
+  "scripts": {
+    "start": "node js/shadow-main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jona Ekenberg <saikyun@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "shadow-cljs": "^2.8.39"
+  }
+}
